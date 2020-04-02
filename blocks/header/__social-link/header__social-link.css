@@ -1,0 +1,14 @@
+.header__social-link {
+  display: flex;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+li:last-of-type .header__social-link {
+  margin-bottom: 0;
+}
+

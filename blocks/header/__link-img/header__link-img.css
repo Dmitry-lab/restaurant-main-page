@@ -1,0 +1,12 @@
+.header__link-img {
+  margin: auto;
+  transition: transform .5s ease;
+}
+
+.header__social-link:hover .header__link-img {
+  transform: scale(1.3);
+}
+
+.header__pagedown-link:hover .header__link-img {
+  transform: scale(1.3);
+}

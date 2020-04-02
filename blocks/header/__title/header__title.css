@@ -1,0 +1,16 @@
+.header__title {
+  margin: 0 auto;
+  font-size: 6em;
+  line-height: 1.45;
+  font-weight: normal;
+  font-family: 'Banny', Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1279px) {
+  .header__title {
+    margin: 2rem auto 0;
+    line-height: 1.3;
+  }
+}

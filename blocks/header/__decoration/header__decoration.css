@@ -1,0 +1,6 @@
+.header__decoration {
+  position: absolute;
+  top: 1.56em;
+  left: calc(50% - 75px);
+  z-index: 0;
+}

@@ -1,0 +1,7 @@
+.header__content {
+  display: flex;
+  justify-content: center;
+  min-height: 700px;
+  width: calc(100% - 160px);
+  margin: 0 auto;
+}
