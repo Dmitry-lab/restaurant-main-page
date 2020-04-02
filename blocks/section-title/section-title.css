@@ -1,0 +1,9 @@
+.section-title {
+  font-family: Banny Bold Round, Arial, sans-serif;
+  font-size: 36px;
+  line-height: 2;
+  margin: 0;
+  text-transform: uppercase;
+  width: fit-content;
+  margin: 0 auto;
+}

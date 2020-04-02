@@ -1,0 +1,10 @@
+.section-subtitle {
+  max-width: 565px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  margin-top: 24px;
+}
