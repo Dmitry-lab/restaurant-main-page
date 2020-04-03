@@ -1,5 +1,6 @@
 .menu__items {
-  font-family: Banny Bold Round, Arial, sans-serif;
+  font-family: Banny, Arial, sans-serif;
+  font-weight: bold;
   list-style: none;
   display: grid;
   grid-template-columns: repeat(auto-fit, 363px);

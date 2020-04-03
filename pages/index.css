@@ -1,8 +1,7 @@
 @import url(../vendor/normalize.css);
-@import url(../fonts/style.css);
-@import url(../blocks/line/line.css);
+@import url(../fonts/fonts.css);
+@import url(../blocks/underline-decoration/underline-decoration.css);
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-subtitle/section-subtitle.css);
 @import url(../blocks/about/about.css);
-@import url(../blocks/menu/menu.css);
 @import url(../blocks/menu/menu.css);

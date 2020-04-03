@@ -6,12 +6,12 @@
     background-size: 100% 5px;
   }
 }
-.line {
-  background-image: url(./img/line.png);
+.underline-decoration {
+  background-image: url(../../img/line.png);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 60px 5px;
 }
-.line:hover {
+.underline-decoration:hover {
     animation: line 1s linear 1 normal forwards;
 }
