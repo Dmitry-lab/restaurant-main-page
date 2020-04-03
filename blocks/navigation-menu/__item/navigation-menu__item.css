@@ -1,0 +1,13 @@
+.navigation-menu__item {
+  flex-basis: 133px;
+  display: flex;
+}
+
+
+@media screen and (max-width: 735px) {
+  .navigation-menu__item {
+    flex-basis: 2.5rem;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.2);
+  }
+}

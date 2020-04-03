@@ -1,0 +1,19 @@
+@keyframes line-animation {
+  from {
+    background-size: 60px 5px;
+  }
+
+  to {
+    background-size: 100% 5px;
+  }
+}
+
+@keyframes wheel-rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

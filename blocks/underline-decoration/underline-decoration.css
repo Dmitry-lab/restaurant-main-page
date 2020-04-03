@@ -1,17 +1,10 @@
-@keyframes line {
-  from {
-    background-size: 60px 5px;
-  }
-  to {
-    background-size: 100% 5px;
-  }
-}
 .underline-decoration {
   background-image: url(../../img/line.png);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 60px 5px;
 }
+
 .underline-decoration:hover {
-    animation: line 1s linear 1 normal forwards;
+    animation: line-animation 1s linear 1 normal forwards;
 }
