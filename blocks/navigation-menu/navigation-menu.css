@@ -8,3 +8,10 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 735px) {
+  .navigation-menu {
+    padding-top: 1.56em;
+    width: calc(100% - 20px);;
+  }
+}

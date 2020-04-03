@@ -14,3 +14,15 @@
     line-height: 1.3;
   }
 }
+
+@media screen and (max-width: 735px) {
+  .header__title {
+    font-size: calc(6em - (735px - 100vw)*.09);
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .header__title {
+    font-size: 4.5em;
+  }
+}

@@ -6,3 +6,10 @@
   min-height: 3.75em;
   padding-top: 1.88em;
 }
+
+@media screen and (max-width: 735px) {
+  .header__main-links {
+    flex-direction: column;
+    align-items: center;
+  }
+}

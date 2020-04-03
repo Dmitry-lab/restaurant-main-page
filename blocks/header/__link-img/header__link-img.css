@@ -10,3 +10,18 @@
 .header__pagedown-link:hover .header__link-img {
   transform: scale(1.3);
 }
+
+
+@media screen and (max-width: 735px) {
+  .header__link-img {
+    transform: scale(.8);
+  }
+
+  .header__social-link:hover .header__link-img {
+    transform: scale(1);
+  }
+
+  .header__pagedown-link:hover .header__link-img {
+    transform: scale(1);
+  }
+}

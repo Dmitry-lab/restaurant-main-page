@@ -5,3 +5,17 @@
   border-right: 1px solid rgb(255, 255, 255, 0.2);
   flex-shrink: 2;
 }
+
+@media screen and (max-width: 735px) {
+  .header__schedule-container {
+    min-width: 48px;
+    border-right: none;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .header__schedule-container {
+    flex-basis: 2rem;
+    order: 2;
+  }
+}

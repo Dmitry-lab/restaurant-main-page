@@ -4,4 +4,17 @@
   min-height: 700px;
   width: calc(100% - 160px);
   margin: 0 auto;
+
+}
+
+@media screen and (max-width: 735px) {
+  .header__content  {
+    width: calc(100% - 20px);
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .header__content  {
+    flex-direction: column;
+  }
 }

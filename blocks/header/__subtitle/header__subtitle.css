@@ -13,3 +13,15 @@
     margin: 10rem auto 0;
   }
 }
+
+@media screen and (max-width: 735px) {
+  .header__subtitle {
+    margin: 5rem auto 0;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .header__subtitle {
+    margin: 3em auto 0;
+  }
+}

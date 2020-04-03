@@ -4,3 +4,9 @@
   position: relative;
   z-index: 1;
 }
+
+@media screen and (max-width: 475px) {
+  .header__main-content {
+    flex-basis: 35rem;
+  }
+}

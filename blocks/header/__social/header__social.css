@@ -11,3 +11,23 @@
   border-left: 1px solid rgb(255, 255, 255, 0.2);
   flex-shrink: 2;
 }
+
+@media screen and (max-width: 1279px) {
+  .header__social {
+    padding: 0 0 0 5px;
+  }
+}
+
+@media screen and (max-width: 735px) {
+  .header__social  {
+    border-left: 0;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .header__social  {
+    flex-basis: 2rem;
+    flex-direction: row;
+    order: 3;
+  }
+}
