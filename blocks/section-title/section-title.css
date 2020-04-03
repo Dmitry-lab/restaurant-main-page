@@ -4,8 +4,11 @@
   line-height: 2;
   margin: 0;
   text-transform: uppercase;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   margin: 0 auto;
+  text-align: center;
 }
 @media screen and (max-width: 375px) {
   .section-title {
