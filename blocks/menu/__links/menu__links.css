@@ -1,0 +1,14 @@
+.menu__links {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 375px) {
+  .menu__links {
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0;
+  }
+}
