@@ -1,0 +1,4 @@
+.menu__name {
+  margin: 0;
+  grid-area: name-menu;
+}
