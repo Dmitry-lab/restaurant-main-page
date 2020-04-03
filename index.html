@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Restaurant Hungry People</title>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" href="./pages/index.css">
 </head>
@@ -155,5 +155,28 @@
       </ul>
     </nav>
   </section>
+   <section class="galerie">
+            <img src="./img/galerie1.jpg" alt="фото1" class="galerie__item">
+            <img src="./img/galerie2.jpg" alt="фото2" class="galerie__item">
+            <img src="./img/galerie3.jpg" alt="фото3" class="galerie__item">
+            <img src="./img/galerie4.jpg" alt="фото4" class="galerie__item">
+        </section>
+        <section class="contacts">
+            <h2 class="section-title underline-decoration">Contacts</h2>
+            <div class="line"></div>
+            <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</p>
+            <form action="#" class="form">
+                <input type="text" class="form__item form__item_name" name="name" placeholder="Name" required>
+                <input type="email" class="form__item form__item_email" name="email" placeholder="Email" required>
+                 <input type="tel" class="form__item form__item_phone" name="phone" placeholder="Phone" required>
+                <textarea class="form__item form__item_message" name="message" placeholder="Message" wrap="soft" required></textarea>
+                <div class="information">
+                    <p class="information__data"><i class="fas fa-map-marker-alt information__icon"></i>5th London Boulevard, U.K</p>
+                    <p class="information__data"><i class="fas fa-phone information__icon"></i>+40 729 131 637/+40 726 458 782</p>
+                    <p class="information__data"><i class="fas fa-envelope information__icon"></i>office@mindblister.com</p>
+                </div>
+                <button type="submit" class="form__item form__item_button">send message</button>
+           </form>
+        </section>
 </body>
 </html>
