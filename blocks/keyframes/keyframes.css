@@ -1,3 +1,13 @@
+@-webkit-keyframes line-animation {
+  from {
+    background-size: 60px 5px;
+  }
+
+  to {
+    background-size: 100% 5px;
+  }
+}
+
 @keyframes line-animation {
   from {
     background-size: 60px 5px;
@@ -8,12 +18,26 @@
   }
 }
 
-@keyframes wheel-rotation {
+@-webkit-keyframes wheel-rotation {
   from {
-    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
   }
 
   to {
-    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes wheel-rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
   }
 }

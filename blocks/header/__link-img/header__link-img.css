@@ -2,7 +2,9 @@
   margin: auto;
   -webkit-transition: -webkit-transform .5s ease;
   -o-transition: transform .5s ease;
+  transition: -webkit-transform .5s ease;
   transition: transform .5s ease;
+  transition: transform .5s ease, -webkit-transform .5s ease;
 }
 
 .header__social-link:hover .header__link-img {
