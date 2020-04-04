@@ -1,0 +1,47 @@
+@import url(./__item/form__item.css);
+
+.form {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: auto 10px auto;
+        grid-template:
+            "name name email email phone phone"
+            "message message message message message message"
+            "info info info button button button";
+    grid-gap: 10px;
+    -ms-grid-columns: 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 60px 120px 60px;
+    margin-top: 50px;
+    color: rgba(51, 51, 51, 0.5);
+}
+
+@media (max-width: 1024px) {
+    .form {
+    -ms-grid-rows: auto 10px auto 10px auto;
+        grid-template:
+            "name name email email phone phone"
+            "message message message message message message"
+            "button button button button button button"
+            "info info info info info info";
+    -ms-grid-columns: 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 40px 120px 40px 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .form {
+    -ms-grid-rows: auto 10px auto 10px auto 10px auto 10px auto;
+        grid-template:
+            "name"
+            "email"
+            "phone"
+            "message"
+            "button"
+            "info";
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px  40px 40px 120px 40px 40px;
+    }
+}

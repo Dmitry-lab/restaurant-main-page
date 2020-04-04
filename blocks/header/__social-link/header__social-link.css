@@ -1,0 +1,32 @@
+.header__social-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+li:last-of-type .header__social-link {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 735px) {
+  .header__social-link {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .header__social-link {
+    margin: 1.5em 1em 0 0;
+  }
+
+  li:last-of-type .header__social-link {
+    margin: 1.5em 0 0 0;
+  }
+}

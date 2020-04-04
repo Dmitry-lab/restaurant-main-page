@@ -1,0 +1,45 @@
+@import url(./__img/about__img.css);
+@import url(./__border/about__border.css);
+@import url(./__images/about__images.css);
+@import url(./__paragraph/about__paragraph.css);
+.about {
+  width: 90%;
+  max-width: 1280px;
+  max-height: 475px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 80px 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: 475px;
+  grid-template-rows: 475px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  grid-column-gap: 80px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 1024px) {
+  .about {
+    -ms-grid-rows: 400px;
+    grid-template-rows: 400px;
+    grid-column-gap: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .about {
+    margin-top: 60px;
+    max-height: 100%;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: -webkit-max-content;
+    -ms-grid-rows: max-content;
+    grid-template-rows: -webkit-max-content;
+    grid-template-rows: max-content;
+    grid-row-gap: 40px;
+  }
+}

@@ -1,0 +1,26 @@
+@import url(__content/header__content.css);
+@import url(__schedule-container/header__schedule-container.css);
+@import url(__schedule/header__schedule.css);
+@import url(__main-content/header__main-content.css);
+@import url(__subtitle/header__subtitle.css);
+@import url(__title/header__title.css);
+@import url(__main-links/header__main-links.css);
+@import url(__main-link/header__main-link.css);
+@import url(__social/header__social.css);
+@import url(__social-link/header__social-link.css);
+@import url(__link-img/header__link-img.css);
+@import url(__pagedown-link/header__pagedown-link.css);
+@import url(__decoration/header__decoration.css);
+@import url(__logo/header__logo.css);
+@import url(__line/header__line.css);
+
+.header {
+  width: 100%;
+  min-height: 800px;
+  background-image: url(../../img/header-bg.jpg);
+  background-size: cover;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 1rem;
+  color: #fff;
+  position: relative;
+}

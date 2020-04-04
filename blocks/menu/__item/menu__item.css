@@ -1,0 +1,16 @@
+.menu__item {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas:
+      "name-menu price-menu"
+      "description-menu .";
+}
+@media screen and (max-width: 375px) {
+  .menu__item {
+        grid-template-areas:
+        "name-menu"
+        "description-menu"
+        "price-menu";
+    text-align: end;
+  }
+}

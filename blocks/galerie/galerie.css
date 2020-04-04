@@ -1,0 +1,26 @@
+@import url(./__item/galerie__item.css);
+
+.galerie {
+    max-width: 1440px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[4];
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 71px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .galerie {
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 60px;
+    }
+}
+
+@media (max-width: 375px) {
+    .galerie {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    }
+}
