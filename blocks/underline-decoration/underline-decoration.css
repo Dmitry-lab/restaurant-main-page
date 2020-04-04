@@ -6,5 +6,6 @@
 }
 
 .underline-decoration:hover {
-  animation: line-animation 1s linear 1 normal forwards;
+  -webkit-animation: line-animation 1s linear 1 normal forwards;
+          animation: line-animation 1s linear 1 normal forwards;
 }

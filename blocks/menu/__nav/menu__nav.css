@@ -3,6 +3,8 @@
 }
 @media screen and (max-width: 375px) {
   .menu__nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
 }

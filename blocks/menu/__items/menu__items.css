@@ -2,11 +2,14 @@
   font-family: Banny, Arial, sans-serif;
   font-weight: bold;
   list-style: none;
+  display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(auto-fit, 363px);
   grid-column-gap: 80px;
   grid-row-gap: 33px;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-size: 18px;
   padding: 0;
   margin-top: 52px;
@@ -22,6 +25,7 @@
 @media screen and (max-width: 375px) {
   .menu__items {
     margin-top: 0px;
+    -ms-grid-columns: 200px;
     grid-template-columns: 200px;
   }
 }
