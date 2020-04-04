@@ -1,13 +1,11 @@
 .contacts {
     max-width: 1280px;
     margin: 0 auto;
-    padding: 100px 80px 175px;
+    padding: 86px 80px 100px;
 }
 
 @media (max-width: 1024px) {
     .contacts {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 60px 40px 100px;
+    padding: 60px 40px 70px;
     }
 }

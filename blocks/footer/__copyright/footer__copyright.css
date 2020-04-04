@@ -1,0 +1,23 @@
+.footer__copyright {
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding-right: 80px;
+    padding-bottom: 48px;
+    color: rgba(51, 51, 51, 0.5);
+  }
+
+  @media (max-width: 1024px) {
+    .footer__copyright {
+    padding-right: 40px;
+    padding-bottom: 29px;
+    font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+  .footer__copyright {
+  font-size: 12px;
+  }
+}

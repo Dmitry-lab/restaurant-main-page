@@ -4,7 +4,7 @@
     max-width: 1440px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    padding-top: 87px;
+    padding-top: 71px;
     margin: 0 auto;
 }
 
@@ -19,4 +19,8 @@
     .galerie {
     grid-template-columns: 1fr;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 7fa30b135e77ddd935ac9c881c4b01c090d6e2ef

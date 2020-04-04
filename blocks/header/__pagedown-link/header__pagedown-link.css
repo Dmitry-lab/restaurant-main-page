@@ -1,0 +1,24 @@
+.header__pagedown-link {
+  margin: 5.12em auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+}
+
+@media screen and (max-width: 1279px) {
+  .header__pagedown-link {
+    margin: 3em auto 0;
+  }
+}
+
+@media screen and (max-width: 735px) {
+  .header__pagedown-link {
+    width: 40px;
+    height: 40px;
+  }
+}
