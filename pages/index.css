@@ -11,11 +11,11 @@
 @import url(../blocks/galerie/galerie.css);
 @import url(../blocks/contacts/contacts.css);
 @import url(../blocks/form/form.css);
-@import url(../blocks/form/__item/_parts/form__item_button.css);
-@import url(../blocks/form/__item/_parts/form__item_email.css);
-@import url(../blocks/form/__item/_parts/form__item_message.css);
-@import url(../blocks/form/__item/_parts/form__item_name.css);
-@import url(../blocks/form/__item/_parts/form__item_phone.css);
+@import url(../blocks/form/__item/_parts/form__item_parts_button.css);
+@import url(../blocks/form/__item/_parts/form__item_parts_email.css);
+@import url(../blocks/form/__item/_parts/form__item_parts_message.css);
+@import url(../blocks/form/__item/_parts/form__item_parts_name.css);
+@import url(../blocks/form/__item/_parts/form__item_parts_phone.css);
 @import url(../blocks/information/information.css);
 @import url(../blocks/footer/footer.css);
 
