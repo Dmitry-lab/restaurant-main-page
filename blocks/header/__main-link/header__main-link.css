@@ -2,6 +2,7 @@
 @import url(_ref/header__main-link_ref_explore.css);
 
 .header__main-link {
+  -ms-flex-preferred-size: 12.5rem;
   flex-basis: 12.5rem;
   text-align: center;
   color: #fff;
@@ -16,6 +17,7 @@
 
 @media screen and (max-width: 735px) {
   .header__main-link  {
+    -ms-flex-preferred-size: 3.75rem;
     flex-basis: 3.75rem;
     width: 70%;
     margin-bottom: 1em;

@@ -1,5 +1,7 @@
 .header__pagedown-link {
   margin: 5.12em auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 60px;
   height: 60px;

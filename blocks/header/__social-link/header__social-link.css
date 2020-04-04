@@ -1,4 +1,6 @@
 .header__social-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 60px;
   height: 60px;
@@ -21,6 +23,10 @@ li:last-of-type .header__social-link {
 
 @media screen and (max-width: 475px) {
   .header__social-link {
-    margin: 1.5em 0 0 1em;
+    margin: 1.5em 1em 0 0;
+  }
+
+  li:last-of-type .header__social-link {
+    margin: 1.5em 0 0 0;
   }
 }

@@ -1,7 +1,11 @@
 .header__schedule {
   margin: 0;
   min-width: 700px;
+  -webkit-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
   transform-origin: 0 100%;
+  -webkit-transform: rotate(-90deg) translateY(1em);
+  -ms-transform: rotate(-90deg) translateY(1em);
   transform: rotate(-90deg) translateY(1em);
   text-align: center;
   font-size: .75em;
@@ -14,6 +18,8 @@
 
 @media screen and (max-width: 475px) {
   .header__schedule {
+    -webkit-transform: rotate(0deg) translateY(0);
+    -ms-transform: rotate(0deg) translateY(0);
     transform: rotate(0deg) translateY(0);
     min-width: 0;
     width: 80%;

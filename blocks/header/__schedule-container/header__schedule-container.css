@@ -1,8 +1,10 @@
 .header__schedule-container {
+  -ms-flex-preferred-size: 13.4rem;
   flex-basis: 13.4rem;
   min-width: 60px;
   position: relative;
   border-right: 1px solid rgb(255, 255, 255, 0.2);
+  -ms-flex-negative: 2;
   flex-shrink: 2;
 }
 
@@ -15,7 +17,10 @@
 
 @media screen and (max-width: 475px) {
   .header__schedule-container {
+    -ms-flex-preferred-size: 2rem;
     flex-basis: 2rem;
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
     order: 2;
   }
 }
