@@ -1,0 +1,20 @@
+@import url(./__data/information__data.css);
+@import url(./__icon/information__icon.css);
+
+.information {
+    grid-area: info;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+@media (max-width: 767px) {
+    .information {
+        flex-direction: column;
+    }
+}

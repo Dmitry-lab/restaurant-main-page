@@ -1,0 +1,22 @@
+@import url(./__item/galerie__item.css);
+
+.galerie {
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 71px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .galerie {
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 60px;
+    }
+}
+
+@media (max-width: 375px) {
+    .galerie {
+    grid-template-columns: 1fr;
+    }
+}

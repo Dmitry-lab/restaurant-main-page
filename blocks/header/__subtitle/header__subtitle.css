@@ -1,0 +1,27 @@
+.header__subtitle {
+  margin: 14.3rem auto 0;
+  font-size: .75em;
+  font-weight: bold;
+  line-height: 1.17;
+  letter-spacing: 0.5em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1279px) {
+  .header__subtitle {
+    margin: 10rem auto 0;
+  }
+}
+
+@media screen and (max-width: 735px) {
+  .header__subtitle {
+    margin: 5rem auto 0;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .header__subtitle {
+    margin: 3em auto 0;
+  }
+}

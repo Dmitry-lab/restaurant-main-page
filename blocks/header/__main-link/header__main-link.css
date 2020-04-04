@@ -1,0 +1,29 @@
+@import url(_ref/header__main-link_ref_booking.css);
+@import url(_ref/header__main-link_ref_explore.css);
+
+.header__main-link {
+  -ms-flex-preferred-size: 12.5rem;
+  flex-basis: 12.5rem;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: .75em;
+  line-height: 3.75rem;
+  font-weight: bold;
+  border-radius: 5px;
+  position: relative;
+}
+
+@media screen and (max-width: 735px) {
+  .header__main-link  {
+    -ms-flex-preferred-size: 3.75rem;
+    flex-basis: 3.75rem;
+    width: 70%;
+    margin-bottom: 1em;
+  }
+
+  .header__main-link:last-of-type  {
+    margin-bottom: 0;
+  }
+}

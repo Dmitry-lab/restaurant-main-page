@@ -1,0 +1,6 @@
+.form__item_button {
+    grid-area: button;
+    background: #E8C300;
+    text-transform: uppercase;
+    color: #fff;
+}

@@ -1,0 +1,8 @@
+.form__item_message {
+    grid-area: message;
+    resize: none;
+}
+
+.form__item_message::placeholder {
+    padding-top: 18px;
+}
