@@ -21,4 +21,4 @@
 * Кирилл Самылин (блок "about", "menu")
 
 #### [Ссылка на макет в Figma](https://www.figma.com/file/yhqJTln2yAEuka54oIrOzY/restaurant)
-#### [Ссылка на готовый проект](https://kirill-samylin.github.io/russian-travel/)
+#### [Ссылка на готовый проект]( https://dmitry-lab.github.io/restaurant-main-page/)
