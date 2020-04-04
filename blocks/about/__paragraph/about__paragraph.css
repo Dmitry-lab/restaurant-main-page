@@ -1,0 +1,10 @@
+.about__paragraph {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+@media screen and (max-width: 375px) {
+  .about__paragraph {
+    font-size: 14px;
+  }
+}

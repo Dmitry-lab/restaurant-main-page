@@ -1,0 +1,4 @@
+.galerie__item {
+    object-fit: cover;
+    width: 100%;
+}
